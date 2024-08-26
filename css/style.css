@@ -89,3 +89,9 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+.preloader-logo {
+  width: 200px; /* Ajusta el tamaño según necesites */
+  height: 200px; /* Asegúrate de que el ancho y el alto sean iguales para una forma circular */
+  border-radius: 60%;
+  object-fit: cover; /* Esto asegura que la imagen se ajuste al contenedor sin distorsionarse */
+}
